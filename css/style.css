@@ -186,3 +186,55 @@
 
 
 /*section 3 partners*/
+.section-tre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 2.5em 1.5em;
+}
+
+.section-tre h1{
+    color: #9792E4;
+}
+
+.section-tre-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+
+    background-color: #9792E4;
+    color: white;
+    padding: 1em;
+    margin-bottom: 1em;  
+    border-radius: 20px; 
+    width: 90%;
+}
+
+.section-tre-card-top{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    
+}
+
+.section-tre-card-top img{
+    height: 100%;
+    margin-left: -50px;
+}
+
+
+.section-tre-card-bottom p{
+    margin-bottom: 1.5em;
+}
+
+/*fine section 3*/
+
+
+
+
