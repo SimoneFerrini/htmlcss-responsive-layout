@@ -1,9 +1,27 @@
+*{
+    font-family: sans-serif;
+}
+
 .container-centered{
     width: 90%;
     margin: 0 auto;
 }
 
+.btn{
+    border-radius: 30px;
+    border: none;
+    padding: 0.6em 1.5em;
+}
 
+.blue-btn{
+    background-color: #0084FD;
+    color: white;
+}
+
+
+.btn-violet{
+    background-color: #9792E4;
+}
 
 
 
@@ -53,3 +71,119 @@
 .nav-menu-tendina{
     color: white;
 }
+
+/*fine navabar*/
+
+
+
+
+
+/*main*/
+
+/*intro - section1*/
+
+.section-bgcolor{
+    background-color: #9792E4;
+}
+
+.section-uno-padding{
+    padding: 3em 0;
+    margin-bottom: 2em;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 2em;
+    margin-bottom: 2em;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    
+}
+
+.primacard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    padding: 2em 2em 0 2em;
+    margin-bottom: 2em;
+    background-color: #B5DDFF;
+    border-radius: 20px;
+    
+}
+
+
+.card h2{
+    color: #0084FD;
+}
+
+.card h2.simbolo{
+    font-size: 2em;
+}
+
+
+.primacard-testo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.primacard-img{
+    text-align: center;
+    margin:0 auto;
+}
+
+.primacard-img img{
+    width: 80%;
+    display: inline;
+    
+}
+/*fine section 1*/
+
+
+/*section 2 strategic planning */
+.section-due{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3em 1.5em;
+    
+}
+
+.section-due-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+    color: white;
+}
+
+.section-due-bottom-bg{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 3em 1.5em;
+}
+
+.section-due-bottom{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+
+}
+
+/*fine section 2*/
+
+
+
+/*section 3 partners*/
