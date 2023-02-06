@@ -21,6 +21,8 @@
 
 .btn-violet{
     background-color: #9792E4;
+    color: white;
+    padding: 0.6em 3em;
 }
 
 
@@ -181,6 +183,10 @@
 
 }
 
+.section-due .btn-violet{
+    color: black;
+    padding: 0.6em 0.9em;
+}
 /*fine section 2*/
 
 
@@ -280,16 +286,62 @@
 .section-four-card h2{
     color: #9792E4;
 }
-
-.section-four .btn-violet{
-    color: white;
-    padding: 0.6em 3em;
-}
-
 /*fine section four*/
 
 
 
 
 /*section five about us*/
+
+.section-five{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    padding: 3em 0;
+}
+
+.section-five h1,
+.section-five h2{
+    color: #9792E4;
+}
+
+.section-five-top{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.section-five-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+}
+.section-five-bottom span{
+    font-size: 6em;
+    color: #9792E4;
+
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.section-five-bottom-img{
+    position: relative;
+
+    width: 150px;
+    height: 150px;
+
+}
+
+.section-five-bottom-img-border{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.section-five-bottom-img-border img{
+    height: 100%;
+}
 
