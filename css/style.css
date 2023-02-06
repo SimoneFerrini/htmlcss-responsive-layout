@@ -3,6 +3,7 @@
 }
 
 .container-centered{
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
 }
@@ -392,4 +393,34 @@
 
     padding: 3em 0;
 
+}
+/*fine footer*/
+
+
+
+
+
+/*inizio la parte responsive
+versione tablet*/
+
+@media screen and (min-width: 577px) {
+
+    /*section 1*/
+    .section-uno-padding{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .card{
+        width: calc(100% / 3 - (15px / 3 * 2));
+        justify-content: flex-start;
+    }
+    
+    .primacard{
+        width: calc(100% / 3 * 2 - (15px / 3));
+                
+    }   
+    
 }
