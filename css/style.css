@@ -49,27 +49,35 @@
  }
 
  /*schermo grande*/
-/*
+
+ 
+ .nav-links{
+    display:none;
+ }
+
+
 .nav-links ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    align-items: center;
+    gap:15px;
 
     height: 100%;
 
     list-style-type: none;
 }
 
-.nav-link ul li{
-    width: calc(100% / 5 - (15 / 5 *4));
+.nav-links ul li{
+    width: calc(100% / 5 - (15 / 5 * 4));
 }
 
  .nav-links ul li a {
     color: white;
     text-decoration: none;
+    
  }
-/* /schermo grande*/
+/*schermo grande*/
 
 .nav-menu-tendina{
     color: white;
@@ -500,6 +508,16 @@ versione tablet*/
 
 /*inizio versione schermo grande*/
 @media screen and (min-width: 769px){
+    /*header navbar*/
+    .nav-menu-tendina{
+        display: none;
+    }
+    
+    .nav-links{
+        display:inline-block;
+     }
+    
+    
     /*section 1*/
     .primacard{
         flex-direction: row;
