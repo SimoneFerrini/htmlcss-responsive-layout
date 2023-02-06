@@ -510,5 +510,30 @@ versione tablet*/
     }
     /*section 1 ended*/
 
+
+
+    /*section 2*/
+    .section-due{
+        display: flex;
+        flex-direction: row;
+        
+    }   
+
     
+    .section-due-top{
+        width: calc(100% / 2 - (15px / 2));
+        justify-content: flex-start;
+        margin-top: 5em;
+        gap: 50px;
+    }
+
+
+    .section-due-bottom-bg{
+        width: calc(100% / 2 - (15px / 2));
+        margin-top: 10em;
+        
+    }
+
+/*end section 2*/
+
 }
