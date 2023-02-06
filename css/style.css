@@ -5,7 +5,51 @@
 
 
 
+
+
+/*navbar*/
+
 .nav-bgcolor{
     background-color: #0084FD;
 }
 
+.nav-logo{
+    padding: 1em 0;
+}
+ .nav-logo img{
+    height: 2em;
+ }
+
+ .nav-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ /*schermo grande*/
+/*
+.nav-links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+    height: 100%;
+
+    list-style-type: none;
+}
+
+.nav-link ul li{
+    width: calc(100% / 5 - (15 / 5 *4));
+}
+
+ .nav-links ul li a {
+    color: white;
+    text-decoration: none;
+ }
+/* /schermo grande*/
+
+.nav-menu-tendina{
+    color: white;
+}
