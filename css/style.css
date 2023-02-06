@@ -344,4 +344,33 @@
 .section-five-bottom-img-border img{
     height: 100%;
 }
+/*fine section 5*/
 
+
+
+
+
+/*section 6 get started*/
+.section-six{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    color: white;
+    padding: 3em 0;
+    text-align: center;
+}
+
+.section-six h1{
+    font-size: 5em;
+    color: #FDC15F;
+}
+
+.btn-white{
+    background-color: white;
+    color: #9792E4;
+    padding: 0.6em 3em;
+}
+/*fine sezione 6*/
+
+/*fine main*/
