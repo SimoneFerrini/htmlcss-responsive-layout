@@ -536,4 +536,10 @@ versione tablet*/
 
 /*end section 2*/
 
+/*section 4*/
+.section-four-card{
+    width: calc(100% / 3 - (15px / 3 * 2));
+}
+/*ended section 4*/
+
 }
