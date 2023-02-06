@@ -140,8 +140,13 @@
 }
 
 
+.primacard-img{
+    min-width: 222px;
+    
+}
+
 .primacard-img img{
-    width: 80%;
+    width: 100%;
     
     display: block;
     
@@ -491,3 +496,19 @@ versione tablet*/
 }
 
 /*fine versione tablet!!!!!!!!!!!*/
+
+
+/*inizio versione schermo grande*/
+@media screen and (min-width: 769px){
+    /*section 1*/
+    .primacard{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+       
+        
+    }
+    /*section 1 ended*/
+
+    
+}
