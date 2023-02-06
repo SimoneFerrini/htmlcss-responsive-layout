@@ -136,15 +136,14 @@
     gap: 15px;
 }
 
-.primacard-img{
-    text-align: center;
-    margin:0 auto;
-}
 
 .primacard-img img{
     width: 80%;
-    display: inline;
     
+    display: block;
+    
+    text-align: center;
+    margin:0 auto;
 }
 /*fine section 1*/
 
