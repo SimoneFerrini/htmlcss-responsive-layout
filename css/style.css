@@ -374,3 +374,22 @@
 /*fine sezione 6*/
 
 /*fine main*/
+
+
+
+
+/*footer*/
+.footer-bgcolor{
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+.footer-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+
+    padding: 3em 0;
+
+}
