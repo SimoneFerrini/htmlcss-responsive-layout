@@ -472,5 +472,13 @@ versione tablet*/
 
 
 
+/*section 5 about us*/
+.section-five{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+
+}
+/*ended section 5*/
 
 }
