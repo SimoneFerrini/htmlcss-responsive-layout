@@ -416,11 +416,61 @@ versione tablet*/
     .card{
         width: calc(100% / 3 - (15px / 3 * 2));
         justify-content: flex-start;
+        margin-bottom: 15px;
     }
     
     .primacard{
         width: calc(100% / 3 * 2 - (15px / 3));
-                
+        margin-bottom: 15px;
     }   
+    /*fine section 1*/
+
+
+    /*section 3 partners*/
+    .section-tre-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
     
+    }
+
+    .section-tre-card-top{
+        width: 600px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        
+        
+    }
+    
+    .section-tre-card-top img{
+        height: 100%;
+        margin-left: -40px;
+    }
+/*controllare non va bene si stretchano le foto tonde!!!!*/
+
+
+/*section 4 benefits*/
+.section-four-cards-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.section-four-card{
+    display: flex;
+    flex-direction: column;
+
+    width: calc(100% / 2 - (15px / 2));
+
+    margin-bottom:15px;
+}
+/*fine section 4 benefits*/
+
+
+
+
 }
