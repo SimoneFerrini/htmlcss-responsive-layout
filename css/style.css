@@ -234,7 +234,7 @@
     padding: 1em;
     margin-bottom: 1em;  
     border-radius: 20px; 
-    width: 90%;
+    width: 100%;
 }
 
 .section-tre-card-top{
@@ -291,7 +291,7 @@
     flex-direction: column;
 
     gap: 30px;
-    padding: 2em 1em;
+    padding: 2em 0em;
 
     background-color: white;
     border-radius: 30px;
