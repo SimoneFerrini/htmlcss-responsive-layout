@@ -3,7 +3,7 @@
 }
 
 .container-centered{
-    min-width: 265px;
+    min-width: 260px;
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
@@ -33,7 +33,7 @@
 
 .nav-bgcolor{
     background-color: #0084FD;
-    min-width: 265px;
+    min-width: 260px;
 }
 
 .nav-logo{
@@ -97,7 +97,7 @@
 
 .section-bgcolor{
     background-color: #9792E4;
-    min-width: 265px;
+    min-width: 260px;
 }
 
 .section-uno-padding{
@@ -403,7 +403,7 @@
     background-color: #333333;
     color: white;
     text-align: center;
-    min-width: 265px;
+    min-width: 260px;
 }
 
 .footer-flex{
@@ -443,6 +443,18 @@ versione tablet*/
         width: calc(100% / 3 * 2 - (15px / 3));
         margin-bottom: 15px;
     }   
+
+    .primacard-testo{
+        align-items: flex-start;
+        
+    }
+
+    .primacard-img{
+        min-width: 222px;
+        margin-left: -3em;
+    }
+    
+
     /*fine section 1*/
 
 
@@ -535,6 +547,9 @@ versione tablet*/
         padding-bottom: 3em;
     }
 
+    .primacard-img{
+        margin-left: 0;
+    }
 
     /*section 1 ended*/
 
