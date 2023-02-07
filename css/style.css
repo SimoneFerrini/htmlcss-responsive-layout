@@ -3,7 +3,7 @@
 }
 
 .container-centered{
-    
+    min-width: 265px;
     max-width: 1200px;
     width: 90%;
     margin: 0 auto;
@@ -33,6 +33,7 @@
 
 .nav-bgcolor{
     background-color: #0084FD;
+    min-width: 265px;
 }
 
 .nav-logo{
@@ -96,6 +97,7 @@
 
 .section-bgcolor{
     background-color: #9792E4;
+    min-width: 265px;
 }
 
 .section-uno-padding{
@@ -401,6 +403,7 @@
     background-color: #333333;
     color: white;
     text-align: center;
+    min-width: 265px;
 }
 
 .footer-flex{
